@@ -1,6 +1,6 @@
 FROM  ubuntu:latest
 # https://www.minecraft.net/zh-hans/download/server/bedrock
-ENV DOWNLOAD_URL https://minecraft.azureedge.net/bin-linux/bedrock-server-1.19.10.03.zip
+ENV DOWNLOAD_URL https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.23.1.zip
 
 EXPOSE 19132/udp
 # unzip openssl wget
