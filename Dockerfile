@@ -3,6 +3,7 @@ FROM  ubuntu:latest
 ENV DOWNLOAD_URL https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.23.1.zip
 
 EXPOSE 19132/udp
+EXPOSE 19132/tcp
 # unzip openssl wget
 RUN apt-get update \
     && apt-get install unzip openssl wget libcurl4-openssl-dev -y \
